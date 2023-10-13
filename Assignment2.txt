@@ -1,0 +1,41 @@
+Q. Explain the role of following key properties in the Flexbox layout model.
+
+1). justify-content :- This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
+# Syntax - 
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right;
+}
+
+2). align-items :- This defines the default behavior for how flex items are laid out along the cross axis on the current line. We can think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
+
+# Syntax - 
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end ;
+}
+
+3). gap :- The gap property explicitly controls the space between flex items. It applies that spacing only between items not on the outer edges.
+
+# Syntax - 
+.container {
+  display: flex;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+4). flex-direction :- This establishes the main-axis by defining the direction where flex items are placed in the flex container. Flexbox is aside from optional wrapping, a single-direction layout concept. We can think of flex items as primarily laying out either in horizontal rows or vertical columns.
+
+# Synatx - 
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+5). flex-wrap :- By default, all flex items will try to fit onto one line. We can change that and allow the items to wrap as needed with this property.
+
+# Syntax - 
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
