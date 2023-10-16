@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@200;300;400;500&display=swap");
+
+/* used universal selector to reset deafult styling of browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Parent container styling */
+.parent-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* container in which cards will be placed */
+.container {
+  width: 962px;
+  height: 427px;
+  top: 25px;
+  left: -8px;
+  padding: 32px, 48px, 32px, 48px;
+  gap: 32px;
+  background: #f4f2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 1st card - Free Plan */
+.card-1 {
+  width: 262px;
+  height: 363px;
+  padding: 32px;
+  border-radius: 8px;
+  gap: 32px;
+  background-color: #fff;
+  box-shadow: 5px 10px 15px #888888;
+}
+
+#fp-title {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#fp-desc {
+  position: relative;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 3px;
+}
+
+#fp-price {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.free-plan-content {
+  width: 198px;
+  height: 112px;
+  padding: 0px, 0px, 0px, 8px;
+  margin-top: 20px;
+  display: grid;
+  place-content: start;
+}
+
+.fp-i {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.fp-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #202842;
+  left: 30px;
+}
+
+.free-plan-content img {
+  height: 22px;
+  width: 22px;
+}
+
+#fp-button {
+  position: relative;
+  width: 156px;
+  height: 38px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 50px;
+  gap: 10px;
+  background-color: #202842;
+  color: #fff;
+  top: 30px;
+  left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 2nd card - Basic Plan */
+.card-2 {
+  width: 262px;
+  height: 363px;
+  padding: 32px;
+  border-radius: 8px;
+  gap: 32px;
+  background-color: #202842;
+  box-shadow: 5px 10px 15px #888888;
+}
+
+#bp-title {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+#bp-desc {
+  position: relative;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 3px;
+  color: #fff;
+}
+
+.bp-content {
+  width: 198px;
+  height: 112px;
+  padding: 0px, 0px, 0px, 8px;
+  margin-top: 20px;
+  display: grid;
+  place-content: start;
+}
+
+.bp-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #fff;
+  left: 30px;
+}
+
+#bp-price {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.bp-i {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.bp-content img {
+  height: 22px;
+  width: 22px;
+}
+
+#bp-button {
+  position: relative;
+  width: 156px;
+  height: 38px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 50px;
+  gap: 10px;
+  background-color: #fff;
+  color: #202842;
+  top: 30px;
+  left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 3rd card - Pro Plan */
+.card-3 {
+  width: 263px;
+  height: 361px;
+  padding: 32px;
+  border-radius: 8px;
+  gap: 32px;
+  background-color: #fff;
+  box-shadow: 5px 10px 15px #888888;
+}
+
+#pp-title {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#pp-desc {
+  position: relative;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 3px;
+}
+
+#pp-price {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.pp-content {
+  width: 198px;
+  height: 112px;
+  padding: 0px, 0px, 0px, 8px;
+  margin-top: 20px;
+  display: grid;
+  place-content: start;
+}
+
+.pp-i {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.pp-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #202842;
+  left: 30px;
+}
+
+#pp-button {
+  position: relative;
+  width: 156px;
+  height: 38px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 50px;
+  gap: 10px;
+  background-color: #202842;
+  color: #fff;
+  top: 30px;
+  left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
